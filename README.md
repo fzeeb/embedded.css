@@ -1,4 +1,4 @@
-# clownish.css
+# embedded.css
 
 ## what?
 
