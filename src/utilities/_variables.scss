@@ -16,14 +16,25 @@ $h4-font-size: $font-size * 1.5 !default;
 $h5-font-size: $font-size * 1.25 !default;
 $h6-font-size: $font-size !default;
 
-$small-font-size: $font-size * 0.75;
+$small-font-size: $font-size * .75;
 
 $headline-line-height: 1 !default;
 
-$highlight-color: #87cefa;
-
 $blockquote-font-size: $font-size * 1.25 !default;
 
+// Layout
+
 $big-border-width: 3px;
-$big-border-color: #ccc;
 $big-border-style: solid;
+
+$radius: 0.25rem;
+
+$vertical-padding: .25rem;
+$horizontal-padding: .5rem;
+
+// Colors
+
+$white: #fff;
+$black: #000;
+$grey: #ccc;
+$light-blue: #87cefa;
