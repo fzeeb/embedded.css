@@ -23,9 +23,9 @@ $headline-line-height: 1 !default;
 $blockquote-font-size: $font-size * 1.25 !default;
 
 // Layout
-
+$border-width: 1px;
 $big-border-width: 3px;
-$big-border-style: solid;
+$border-style: solid;
 
 $radius: 0.25rem;
 
@@ -38,3 +38,4 @@ $white: #fff;
 $black: #000;
 $grey: #ccc;
 $light-blue: #87cefa;
+$blue: #3772ff;
