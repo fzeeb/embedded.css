@@ -1,0 +1,19 @@
+button {
+    text-align: center;
+    vertical-align: middle;
+    font-size: $font-size;
+    color: $blue;
+    background-color: transparent;
+    border: $border-width $border-style $blue;
+    border-radius: $radius;
+    padding: $vertical-padding $horizontal-padding;
+}
+
+button:hover, button:active{
+    color: $white;
+    background-color: $blue;
+}
+
+button:focus {
+    border: $big-border-width $border-style $blue;
+}
