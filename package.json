@@ -8,7 +8,7 @@
         "url": "git+https://github.com/fzeeb/embedded.css.git"
     },
     "scripts": {
-        "compile-scss": "node-sass src/embedded.scss embedded.css",
+        "compile-scss": "sass src/embedded.scss embedded.css",
         "minify-css": "cleancss -o embedded.min.css embedded.css",
         "build": "npm run compile-scss && npm run minify-css"
     },
@@ -20,6 +20,6 @@
     "homepage": "https://github.com/fzeeb/embedded.css",
     "devDependencies": {
         "clean-css-cli": "^4.2.3",
-        "node-sass": "^4.14.1"
+        "sass": "^1.27.1"
     }
 }
