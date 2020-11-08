@@ -1,0 +1,10 @@
+details {
+    cursor: pointer;
+    border: $border-width $border-style $black;
+    border-radius: $radius;
+    padding: $vertical-padding $horizontal-padding;
+
+    summary {
+        @extend h5;
+    }
+}

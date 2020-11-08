@@ -1,50 +1,63 @@
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 20px; }
+  padding: 20px;
+}
 
 img {
   max-width: 100%;
   height: auto;
-  margin: 1rem 0; }
+  margin: 1rem 0;
+}
 
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.25rem;
   font-weight: 400;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, details summary, h6 {
   font-weight: 700;
-  line-height: 1; }
+  line-height: 1;
+}
 
 h1 {
-  font-size: 3.125rem; }
+  font-size: 3.125rem;
+}
 
 h2 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+}
 
 h3 {
-  font-size: 2.1875rem; }
+  font-size: 2.1875rem;
+}
 
 h4 {
-  font-size: 1.875rem; }
+  font-size: 1.875rem;
+}
 
-h5 {
-  font-size: 1.5625rem; }
+h5, details summary {
+  font-size: 1.5625rem;
+}
 
 h6 {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+}
 
 mark {
   padding: 0.25rem 0.5rem;
-  background-color: #87cefa; }
+  background-color: #87cefa;
+}
 
 strong {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 small {
-  font-size: 0.9375rem; }
+  font-size: 0.9375rem;
+}
 
 blockquote {
   font-size: 1.5625rem;
@@ -52,7 +65,8 @@ blockquote {
   border-left-color: #ccc;
   border-left-width: 3px;
   margin-left: 0;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
 
 kbd {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -60,13 +74,15 @@ kbd {
   color: #fff;
   background-color: #000;
   padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+}
 
 code, pre {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   background-color: #ccc;
   padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+}
 
 button {
   text-align: center;
@@ -76,11 +92,23 @@ button {
   background-color: transparent;
   border: 1px solid #3772ff;
   border-radius: 0.25rem;
-  padding: 0.25rem 0.5rem; }
+  padding: 0.25rem 0.5rem;
+}
 
 button:hover, button:active {
   color: #fff;
-  background-color: #3772ff; }
+  background-color: #3772ff;
+}
 
 button:focus {
-  border: 3px solid #3772ff; }
+  border: 3px solid #3772ff;
+}
+
+details {
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/*# sourceMappingURL=embedded.css.map */
